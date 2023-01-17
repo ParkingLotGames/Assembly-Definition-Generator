@@ -1,22 +1,22 @@
 {
-  "name": "com.[company-name].[package-name]",
-  "version": "1.2.3",
-  "displayName": "Package Example",
-  "description": "This is an example package",
-  "unity": "2019.1",
-  "unityRelease": "0b5",
-  "documentationUrl": "https://example.com/",
-  "changelogUrl": "https://example.com/changelog.html",
-  "licensesUrl": "https://example.com/licensing.html",
+  "name": "com.parkinglotgames.asmdef-generator",
+  "version": "0.0.1",
+  "displayName": "Assembly Definition Generator",
+  "description": "A makeshift asmdef generator, it iterates through all your folders, those with .cs files but no .asmdef files are marked and asmdef files are created in them, these asmdefs do add the suffixes \".Editor\" for Editor folders, taking the Assembly name from the parent, and \".Demo\" for folders whose parent contains \"Demo, Example or Sample\" in its name. It can't make references or set excluded/included platforms as of yet/ ",
+  "unity": "2018.2",
+  "unityRelease": "19f1",
+  "documentationUrl": "https://github.com/ParkingLotGames/Assembly-Definition-Generator",
+  "changelogUrl": "https://github.com/ParkingLotGames/Assembly-Definition-Generator/releases",
+  "licensesUrl": "https://github.com/ParkingLotGames/Assembly-Definition-Generator/blob/main/LICENSE",
   "keywords": [
-    "keyword1",
-    "keyword2",
-    "keyword3"
+    "Editor",
+    "AssemblyDefinition",
+    "ASMDEF"
   ],
   "dependencies": {},
   "author": {
-    "name": "Unity",
-    "email": "unity@example.com",
-    "url": "https://www.unity3d.com"
+    "name": "Parking Lot Games",
+    "email": "parkinglotstudiogames@gmail.com",
+    "url": "https://github.com/ParkingLotGames/"
   }
 }
